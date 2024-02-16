@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:layout_margin="11dp"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <Button  android:layout_margin="11dp"
+        android:id="@+id/bt1"
+
+        android:onClick="process"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+
+        android:id="@+id/bt2"/>
+    <Button
+        android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt3"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt4"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt5"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt6"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt7"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt8"/>
+    <Button  android:layout_margin="11dp"
+        android:onClick="process"
+        android:id="@+id/bt9"/>
+
+</GridLayout>
